@@ -1,0 +1,13 @@
+#PBS -S /bin/bash
+#PBS -N moloc
+#PBS -l walltime=120:00:00
+#PBS -l procs=2
+#PBS -l mem=40gb
+#PBS -o moloc.tagc.out
+#PBS -e moloc.tagc.err
+
+module load gcc/6.2.0
+module load R/3.3.2
+
+cd /scratch/msoliai/moloc/r.code
+Rscript /scratch/msoliai/moloc/r.code/multi.code/tagc/$FILE
