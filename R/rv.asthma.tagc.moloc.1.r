@@ -21,6 +21,7 @@ library(doParallel)
 
 #Determine which eQTL region from bed file falls within the molQTL enriched GWAS regions (GARFIELD)
 	y  <- NULL
+
 	for (i in 1:nrow(ranges.gar)){
 	
 		tmp <- bed.data[bed.data$CHR == as.numeric(ranges.gar[i,1]) & bed.data$START >= as.numeric(ranges.gar[i,6]) & bed.data$START <= as.numeric(ranges.gar[i,7]),]
