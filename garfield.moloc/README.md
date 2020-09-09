@@ -4,9 +4,13 @@
 3. GARFIELD input must contain the following columns (chr, pos, snp, pval, anno_overlap)
 	
 	a. chr (chromosome)
+	
 	b. pos (chromosome position)
+	
 	c. snp (chromosome:position)
+	
 	d. pval (pvalue of the lead SNP; optional)
+	
 	e. anno_overlap (number of overlapping molQTL; max is 1; optional)
 
 Note: columns 4 (pval) and 5 (anno_overlap) are optional but five columns are required. If the user does not wish to include this information, then they can fill the columns with 'NULL' values.
