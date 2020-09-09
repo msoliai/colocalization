@@ -20,5 +20,9 @@
 	i. N (sample number; cases + controls)
 	
 	j. Ncases (number of cases)
+<<<<<<< HEAD
 	
 	k. variant (chromosome:position:reference allele:alternate allele)
+=======
+	k. variant (chromosome:position:reference allele:alternate allele)
+>>>>>>> b6e0d39491c56bcf62f129f10486df42bddbf99e
