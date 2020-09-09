@@ -1,7 +1,8 @@
 # GWAS SNPs for moloc input
 1. GWAS input must contain the following columns (SNP, CHR, POS, BETA, SE, PVAL, RSID, MAF, N, Ncases, variant)
 	
-	a. SNP (chromosome:position);
+	a. SNP (chromosome:position)
+	
 	b. CHR (chromosome)
 	c. POS (position on chromosome)
 	d. BETA (slope)
